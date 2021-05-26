@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyKolo", "MyKolo\MyKolo.csproj", "{548B5193-EF48-465D-BB99-23E1523A1F50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyKoloDAL", "MyKoloDAL\MyKoloDAL.csproj", "{01E2CA91-5CF2-4553-A936-6A061881E46A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyKoloBLL", "MyKoloBLL\MyKoloBLL.csproj", "{A215CC6B-4BB9-4666-B1FB-7C9E921FCF66}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{548B5193-EF48-465D-BB99-23E1523A1F50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{548B5193-EF48-465D-BB99-23E1523A1F50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{548B5193-EF48-465D-BB99-23E1523A1F50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{548B5193-EF48-465D-BB99-23E1523A1F50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01E2CA91-5CF2-4553-A936-6A061881E46A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01E2CA91-5CF2-4553-A936-6A061881E46A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01E2CA91-5CF2-4553-A936-6A061881E46A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01E2CA91-5CF2-4553-A936-6A061881E46A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A215CC6B-4BB9-4666-B1FB-7C9E921FCF66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A215CC6B-4BB9-4666-B1FB-7C9E921FCF66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A215CC6B-4BB9-4666-B1FB-7C9E921FCF66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A215CC6B-4BB9-4666-B1FB-7C9E921FCF66}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {09C0516C-5169-42CA-B041-3C1357F144D2}
+	EndGlobalSection
+EndGlobal
