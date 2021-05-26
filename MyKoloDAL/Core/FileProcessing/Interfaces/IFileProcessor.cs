@@ -6,7 +6,7 @@ namespace MyKoloDAL.Core.FileProcessing.Interfaces
 {
     internal interface IFileProcessor
     {
-        bool ReadToFile();
+        bool ReadFromFile();
 
         bool WriteToFile();
     }
