@@ -4,10 +4,10 @@ using System.Text;
 
 namespace MyKoloDAL.Core.FileProcessing.Interfaces
 {
-    internal interface IFileProcessor
+    public class SingleFieldMeta
     {
-        bool ReadFromFile();
+        public string ColumnName { get; set; }
 
-        bool WriteToFile(List<SingleFieldMeta> singleRecord);
+        public object ColumnValue { get; set; }
     }
 }
